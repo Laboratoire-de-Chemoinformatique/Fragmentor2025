@@ -21,17 +21,17 @@
     </PublishOptions>
     <RunParams>
       <local>
-        <CommandLineParams Value="-i mol_117_sub4.sdf -o toto -t 1 -l 11 -u 11"/>
+        <CommandLineParams Value="-i /Users/marcou/workdir/Fragmentor2025/example/Bug2026/nitrotoluene.sdf -o toto -t 1 -l 11 -u 11"/>
         <LaunchingApplication PathPlusParams="/usr/bin/gnome-terminal -t &apos;Lazarus Run Output&apos; -e &apos;$(LazarusDir)/tools/runwait.sh $(TargetCmdLine)&apos;"/>
-        <WorkingDirectory Value="/home/marcou/workdir/fragmentor2024/example/debug_yen_2024"/>
+        <WorkingDirectory Value="/Users/marcou/workdir/Fragmentor2025/example/Bug2026"/>
       </local>
       <FormatVersion Value="2"/>
       <Modes Count="1">
         <Mode0 Name="default">
           <local>
-            <CommandLineParams Value="-i mol_117_sub4.sdf -o toto -t 1 -l 11 -u 11"/>
+            <CommandLineParams Value="-i /Users/marcou/workdir/Fragmentor2025/example/Bug2026/nitrotoluene.sdf -o toto -t 1 -l 11 -u 11"/>
             <LaunchingApplication PathPlusParams="/usr/bin/gnome-terminal -t &apos;Lazarus Run Output&apos; -e &apos;$(LazarusDir)/tools/runwait.sh $(TargetCmdLine)&apos;"/>
-            <WorkingDirectory Value="/home/marcou/workdir/fragmentor2024/example/debug_yen_2024"/>
+            <WorkingDirectory Value="/Users/marcou/workdir/Fragmentor2025/example/Bug2026"/>
           </local>
         </Mode0>
       </Modes>
@@ -45,7 +45,8 @@
       <Unit0>
         <Filename Value="Fragmentor.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="57" Y="17"/>
+        <TopLine Value="155"/>
+        <CursorPos Y="174"/>
         <UsageCount Value="202"/>
         <Bookmarks Count="1">
           <Item0 Y="154"/>
@@ -143,44 +144,44 @@
         <Filename Value="unitshortestpath.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="UnitShortestPath"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="131"/>
-        <CursorPos X="7" Y="156"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="159"/>
+        <CursorPos X="14" Y="182"/>
         <UsageCount Value="225"/>
         <Loaded Value="True"/>
       </Unit12>
       <Unit13>
         <Filename Value="unitneighbours.pas"/>
         <CursorPos X="40" Y="6"/>
-        <UsageCount Value="93"/>
+        <UsageCount Value="92"/>
       </Unit13>
       <Unit14>
         <Filename Value="unitnghbrsatmsym.pas"/>
         <CursorPos Y="192"/>
-        <UsageCount Value="70"/>
+        <UsageCount Value="69"/>
       </Unit14>
       <Unit15>
         <Filename Value="unitnghbrsbond.pas"/>
         <TopLine Value="61"/>
         <CursorPos X="30" Y="15"/>
-        <UsageCount Value="72"/>
+        <UsageCount Value="71"/>
       </Unit15>
       <Unit16>
         <Filename Value="unitnghbrsatmhyb.pas"/>
         <TopLine Value="58"/>
         <CursorPos X="22" Y="96"/>
-        <UsageCount Value="71"/>
+        <UsageCount Value="70"/>
       </Unit16>
       <Unit17>
         <Filename Value="unitnghbrsatmbond.pas"/>
         <CursorPos X="34" Y="25"/>
-        <UsageCount Value="68"/>
+        <UsageCount Value="67"/>
       </Unit17>
       <Unit18>
         <Filename Value="unitnghbrsatmclmn.pas"/>
         <TopLine Value="58"/>
         <CursorPos X="8" Y="97"/>
-        <UsageCount Value="69"/>
+        <UsageCount Value="68"/>
       </Unit18>
       <Unit19>
         <Filename Value="unitshortestpathatom.pas"/>
@@ -250,9 +251,11 @@
         <Filename Value="unitfragment.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="UnitFragment"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos Y="20"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="671"/>
+        <CursorPos Y="678"/>
         <UsageCount Value="201"/>
+        <Loaded Value="True"/>
       </Unit27>
       <Unit28>
         <Filename Value="unitacpathatom.pas"/>
@@ -378,35 +381,35 @@
         <Filename Value="Molecule/U_BASE_GRAPHES.pas"/>
         <TopLine Value="5"/>
         <CursorPos X="69" Y="33"/>
-        <UsageCount Value="70"/>
+        <UsageCount Value="69"/>
       </Unit43>
       <Unit44>
         <Filename Value="Molecule/U_GRAPHES.pas"/>
         <TopLine Value="256"/>
         <CursorPos X="13" Y="133"/>
-        <UsageCount Value="70"/>
+        <UsageCount Value="69"/>
       </Unit44>
       <Unit45>
         <Filename Value="Molecule/unitatomandbondtype.pas"/>
         <TopLine Value="39"/>
         <CursorPos X="5" Y="56"/>
-        <UsageCount Value="74"/>
+        <UsageCount Value="73"/>
       </Unit45>
       <Unit46>
         <Filename Value="Molecule/unitmoleculebase.pas"/>
         <CursorPos X="3" Y="31"/>
-        <UsageCount Value="74"/>
+        <UsageCount Value="73"/>
       </Unit46>
       <Unit47>
         <Filename Value="Molecule/U_TYPE_GRAPHES.pas"/>
         <CursorPos X="49" Y="88"/>
-        <UsageCount Value="70"/>
+        <UsageCount Value="69"/>
       </Unit47>
       <Unit48>
         <Filename Value="Molecule/basicsdf.pas"/>
         <TopLine Value="92"/>
         <CursorPos X="6" Y="97"/>
-        <UsageCount Value="73"/>
+        <UsageCount Value="72"/>
       </Unit48>
       <Unit49>
         <Filename Value="unitmoleculefrg.pas"/>
@@ -420,7 +423,7 @@
         <Filename Value="unitatombenson.pas"/>
         <TopLine Value="84"/>
         <CursorPos X="6" Y="112"/>
-        <UsageCount Value="69"/>
+        <UsageCount Value="68"/>
       </Unit50>
       <Unit51>
         <Filename Value="unitacfxbase.pas"/>
@@ -442,10 +445,11 @@
         <Filename Value="../Molecule/basicsdf.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="BasicSDF"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="55"/>
-        <CursorPos X="6" Y="57"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="92"/>
+        <CursorPos Y="106"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit53>
       <Unit54>
         <Filename Value="../Molecule/typepredictor.pas"/>
@@ -458,7 +462,7 @@
       <Unit55>
         <Filename Value="../Molecule/U_BASE_GRAPHES.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="4"/>
         <TopLine Value="53"/>
         <CursorPos X="18" Y="243"/>
         <UsageCount Value="200"/>
@@ -468,9 +472,9 @@
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="2836"/>
-        <CursorPos Y="2694"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="2720"/>
+        <CursorPos X="7" Y="2740"/>
         <UsageCount Value="200"/>
         <Bookmarks Count="1">
           <Item0 Y="2694" ID="1"/>
@@ -521,13 +525,13 @@
       <Unit62>
         <Filename Value="trash.pas"/>
         <CursorPos X="20" Y="17"/>
-        <UsageCount Value="121"/>
+        <UsageCount Value="120"/>
       </Unit62>
       <Unit63>
         <Filename Value="../Molecule/unitmodelbase.pas"/>
         <UnitName Value="UnitModelBase"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
       </Unit63>
       <Unit64>
         <Filename Value="../Molecule/u_node_helper.pas"/>
@@ -536,163 +540,163 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="48"/>
+        <UsageCount Value="55"/>
       </Unit64>
       <Unit65>
         <Filename Value="unitatompairs.pas"/>
         <UnitName Value="UnitAtomPairs"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="20"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
       </Unit65>
       <Unit66>
         <Filename Value="unitmixture.pas"/>
         <UnitName Value="UnitMixture"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="20"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
       </Unit66>
       <Unit67>
         <Filename Value="unitshortestpathpair.pas"/>
         <UnitName Value="UnitShortestPathPair"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="20"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
       </Unit67>
       <Unit68>
         <Filename Value="unitshortestpath_sol1.pas"/>
         <UnitName Value="UnitShortestPath"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="20"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
       </Unit68>
       <Unit69>
         <Filename Value="unitxfragmentor.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="20"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
       </Unit69>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2545" TopLine="2529"/>
+        <Caret Line="2696" Column="5" TopLine="2671"/>
       </Position1>
       <Position2>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2546" TopLine="2529"/>
+        <Caret Line="2681" TopLine="2671"/>
       </Position2>
       <Position3>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2548" TopLine="2529"/>
+        <Caret Line="2683" TopLine="2671"/>
       </Position3>
       <Position4>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2549" TopLine="2529"/>
+        <Caret Line="2685" TopLine="2671"/>
       </Position4>
       <Position5>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2546" TopLine="2529"/>
+        <Caret Line="2686" TopLine="2671"/>
       </Position5>
       <Position6>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2548" TopLine="2529"/>
+        <Caret Line="2688" TopLine="2671"/>
       </Position6>
       <Position7>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2549" TopLine="2529"/>
+        <Caret Line="2693" Column="4" TopLine="2671"/>
       </Position7>
       <Position8>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2642" TopLine="2619"/>
+        <Caret Line="2851" Column="34" TopLine="2828"/>
       </Position8>
       <Position9>
-        <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2640" TopLine="2619"/>
+        <Filename Value="Fragmentor.lpr"/>
+        <Caret Line="132" TopLine="125"/>
       </Position9>
       <Position10>
-        <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2642" TopLine="2619"/>
+        <Filename Value="../Molecule/basicsdf.pas"/>
+        <Caret Line="106" TopLine="92"/>
       </Position10>
       <Position11>
-        <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2645" TopLine="2621"/>
+        <Filename Value="Fragmentor.lpr"/>
+        <Caret Line="174" TopLine="156"/>
       </Position11>
       <Position12>
-        <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2646" TopLine="2622"/>
+        <Filename Value="unitfragment.pas"/>
+        <Caret Line="671" TopLine="666"/>
       </Position12>
       <Position13>
-        <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2647" TopLine="2623"/>
+        <Filename Value="unitfragment.pas"/>
+        <Caret Line="678" TopLine="670"/>
       </Position13>
       <Position14>
-        <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2649" TopLine="2625"/>
+        <Filename Value="unitfragment.pas"/>
+        <Caret Line="680" TopLine="670"/>
       </Position14>
       <Position15>
-        <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2650" TopLine="2626"/>
+        <Filename Value="unitfragment.pas"/>
+        <Caret Line="681" TopLine="670"/>
       </Position15>
       <Position16>
-        <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2651" TopLine="2627"/>
+        <Filename Value="unitfragment.pas"/>
+        <Caret Line="668" TopLine="668"/>
       </Position16>
       <Position17>
-        <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2535" TopLine="2521"/>
+        <Filename Value="unitfragment.pas"/>
+        <Caret Line="719" TopLine="707"/>
       </Position17>
       <Position18>
-        <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2663" TopLine="2641"/>
+        <Filename Value="Fragmentor.lpr"/>
+        <Caret Line="175" TopLine="156"/>
       </Position18>
       <Position19>
-        <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2664" TopLine="2641"/>
+        <Filename Value="unitshortestpath.pas"/>
+        <Caret Line="155" Column="69" TopLine="140"/>
       </Position19>
       <Position20>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2677" Column="6" TopLine="2659"/>
+        <Caret Line="356" Column="15" TopLine="345"/>
       </Position20>
       <Position21>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2684" TopLine="2662"/>
+        <Caret Line="2736" Column="7" TopLine="2722"/>
       </Position21>
       <Position22>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2681" Column="34" TopLine="2671"/>
+        <Caret Line="355" Column="54" TopLine="344"/>
       </Position22>
       <Position23>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2696" Column="5" TopLine="2671"/>
+        <Caret Line="357" Column="58" TopLine="344"/>
       </Position23>
       <Position24>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2681" TopLine="2671"/>
+        <Caret Line="359" Column="54" TopLine="344"/>
       </Position24>
       <Position25>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2683" TopLine="2671"/>
+        <Caret Line="361" Column="58" TopLine="344"/>
       </Position25>
       <Position26>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2685" TopLine="2671"/>
+        <Caret Line="2468" Column="50" TopLine="2447"/>
       </Position26>
       <Position27>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2686" TopLine="2671"/>
+        <Caret Line="2521" Column="19" TopLine="2501"/>
       </Position27>
       <Position28>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2688" TopLine="2671"/>
+        <Caret Line="2537" Column="19" TopLine="2517"/>
       </Position28>
       <Position29>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2693" Column="4" TopLine="2671"/>
+        <Caret Line="2673" Column="54" TopLine="2652"/>
       </Position29>
       <Position30>
         <Filename Value="../Molecule/U_GRAPHES.pas"/>
-        <Caret Line="2851" Column="34" TopLine="2828"/>
+        <Caret Line="2731" Column="7" TopLine="2711"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>
@@ -721,7 +725,7 @@
     </Linking>
   </CompilerOptions>
   <Debugging>
-    <BreakPoints Count="8">
+    <BreakPoints Count="9">
       <Item1>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsGlobal"/>
@@ -778,6 +782,13 @@
         <WatchKind Value="wpkWrite"/>
         <InitialEnabled Value="False"/>
       </Item8>
+      <Item9>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="unitshortestpath.pas"/>
+        <Line Value="153"/>
+      </Item9>
     </BreakPoints>
     <Watches Count="1">
       <Item1>

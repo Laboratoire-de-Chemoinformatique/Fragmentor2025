@@ -152,6 +152,14 @@ begin
       //Mol.Yen(W,s,t,fPath,fL,fV,4,LenMax);
       Mol.YenEq(W,s,t,fPath,fL,fV,fNP,LenMax);
       //writeln('ICI1');
+      {writeln('ICI '+IntToStr(s)+' '+IntToStr(t)+' '+IntToStr(fNP));
+      for i:=1 to fNP do
+        begin
+          write('s='+IntToStr(s)+' t='+IntToStr(t)+' : V='+IntToStr(fV[i])+' : Keep='+IntToStr(fPath[i,0])+' : '+IntToStr(fPath[i,1]));
+          for u:=2 to fL[i] do
+            write('-'+IntToStr(fPath[i,u]));
+          writeln;
+        end;}
       if (fV[1] + 1 >= LenMin) and (fV[1] + 1 <= LenMax) then //Check the cost of the optimal path
       begin
         PathFilter(Mol);//Filter useless path

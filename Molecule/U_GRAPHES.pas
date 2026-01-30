@@ -2732,9 +2732,12 @@ begin
   //
   for e:=0 to p_M do Wsave[e]:=W[e];
   DijHeap(W,s,t,V,P,Vmax);
+  //writeln('V[',t,']=',V[t],' Vmax=',Vmax,' ');
   if (V[t] <= Vmax) then
   begin
+    kmax:=1; // One path is in the list
     GetPath(s,t,P,Path,Last);
+    //For x:=0 to Last do write(' ',Path[x]); writeln;
     PMLast[1]:=Last;
     PMV[1]:=V[t];
     //if (Last<MaxPathLength) then //Possible to use a DijHeap limiter to maximum length exploration
@@ -2877,22 +2880,28 @@ begin
   FreeAndNil(Z);
   FreeAndNil(B);
   //
-  {if (s=14) and (t=17) then
-     writeln('-|-');
-  for k:=1 to kmax do
+  //if (s=7) and (t=10) then
+  {   writeln('-|-');
+  for y:=1 to PMLast[1] do
   begin
-    if PMLast[k]=11 then
-    begin
+    write(IntToStr(PM[1,y])+' ');
+  end;
+  writeln('-|-');
+  writeln;
+  for k:=1 to kmax do // Is there a valid path for k=0?
+  begin
+    //if PMLast[k]=11 then
+    //begin
        writeln('*');
        for y:=1 to PMLast[k] do
        begin
          write(IntToStr(PM[k,y])+' ');
        end;
        writeln;
-    end;
+    //end;
   end;
-  if (s=14) and (t=17) then
-     writeln('|-|');}
+  //if (s=7) and (t=10) then
+  //   writeln('|-|'); }
 end;
 
 procedure T_GRAPHE_LISTE.YenP(PW: PTArcCost; s, t: Node; var PM: NodeMatrix;

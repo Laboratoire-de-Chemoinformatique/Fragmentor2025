@@ -127,7 +127,7 @@ begin
   end;
   //set SDF property field and eventually a fragmentation header
   sfield   := IO.SGifield;
-  h.prptag := sfield; writeln('h.prptag '+sfield);
+  h.prptag := sfield; //writeln('h.prptag '+sfield);
   hdrlst   := TStringList.Create;
   if (IO.SGHFileName <> '') then
   begin
